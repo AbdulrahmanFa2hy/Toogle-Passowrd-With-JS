@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #192a56;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Montserrat', sans-serif;
+}
+input {
+  padding: 15px;
+  margin: 20px;
+  width: 600px;
+  font-size: 20px;
+  border-radius: 6px;
+  transition: all .5s ease;
+}
+input:hover {
+  transform: scale(1.018);
+}
+input::placeholder{
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+button {
+  height: 60px;
+  width: 60px;
+  padding: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #192a56;
+  background-color: #f5f6fa;
+  border-radius: 35%;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s ease;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
